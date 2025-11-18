@@ -62,9 +62,10 @@ if prompt := st.chat_input("Ingresa el código", ):
     Evalúa la siguiente función de Python según estas buenas prácticas:
     Mantenibilidad: máximo 3 parámetros (CleanCode Cap 3)
     Modularidad: máximo 20 líneas (CleanCode Cap 3)
-    Consistencia: snake_case para funciones y variables (PEP8)
+    Consistencia: snake_case para nombres de parámetros y variables (PEP8)
     Legibilidad: comentarios completos, mayúscula inicial, <72 caracteres, separación de 2 espacios (PEP8)
     Para cada incumplimiento, genera una recomendación concreta indicando qué cambiar, basado en qué y qué buena práctica mejora.
+    Al final genera el porcentaje de cumplimiento basado en las 4 reglas
     
     Devuelve la respuesta en **Markdown**, usando:
     - Encabezados (###) para secciones
